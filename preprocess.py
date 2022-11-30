@@ -25,7 +25,7 @@ for foldername in os.listdir(PathDicom):
                 np.save(os.path.join(patient_path, str(foldername[0:7] + course_id)) + '/'
                         + str(foldername[0:7]) + course_id + '_MR_t1.npy', ArrayDicom)
 
-# Save RT structure dicom as numpy mask (Similar to RT dose)
+# Save RT structure dicom as numpy mask (Saving RT dose is similar with SimpleITK)
 for rtfoldername in os.listdir(PathDicom):
     if '_RTst_' in rtfoldername:
         rt_struct_path = os.path.join(PathDicom, rtfoldername)
