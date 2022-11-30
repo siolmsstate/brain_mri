@@ -1,2 +1,2 @@
-# brain_mri
-An open brain MRI dataset and baseline evaluations1 for tumor recurrence prediction
+# Brain_MRI
+An open brain MRI dataset and baseline evaluations for tumor recurrence prediction
