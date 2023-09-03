@@ -9,11 +9,11 @@ def get_model():
     x = layers.MaxPool3D(pool_size=2)(x)
     x = layers.BatchNormalization()(x)
 
-    x = layers.Conv3D(filters=64, kernel_size=(3,3,1), activation="relu")(x)
+    x = layers.Conv3D(filters=64, kernel_size=(3,3,3), activation="relu")(x)
     x = layers.MaxPool3D(pool_size=2)(x)
     x = layers.BatchNormalization()(x)
 
-    x = layers.Conv3D(filters=128, kernel_size=(3,3,1), activation="relu")(x)
+    x = layers.Conv3D(filters=128, kernel_size=(3,3,3), activation="relu")(x)
     x = layers.MaxPool3D(pool_size=2)(x)
     x = layers.BatchNormalization()(x)
 
@@ -32,7 +32,7 @@ def get_model():
     x = layers.MaxPool3D(pool_size=2)(x)
     x = layers.BatchNormalization()(x)
 
-    x = layers.Conv3D(filters=128, kernel_size=(3, 3, 1), activation="relu")(x)
+    x = layers.Conv3D(filters=128, kernel_size=(3, 3, 3), activation="relu")(x)
     x = layers.MaxPool3D(pool_size=2)(x)
     x = layers.BatchNormalization()(x)
 
