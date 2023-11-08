@@ -35,9 +35,13 @@ train.py
 
 ## Citation
 
-Data Citation
+Dataset Citation
 ```
 Wang, Y., Duggar, W.N., Caballero, D.M., Vengaloor Thomas, T., Adari, N., Mundra, E.K., Wang, H. (2023) Brain Tumor Recurrence Prediction after Gamma Knife Radiotherapy from MRI and Related DICOM-RT: An Open Annotated Dataset and Baseline Algorithm (Brain-TR-GammaKnife) [Dataset]. The Cancer Imaging Archive. DOI:  https://doi.org/10.7937/xb6d-py67 
+```
+Paper Citation
+```
+Wang, Y., Duggar, W.N., Caballero, D.M. et al. A brain MRI dataset and baseline evaluations for tumor recurrence prediction after Gamma Knife radiotherapy. Sci Data 10, 785 (2023). https://doi.org/10.1038/s41597-023-02683-1
 ```
 TCIA Citation
 ```
