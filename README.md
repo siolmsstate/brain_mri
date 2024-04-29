@@ -27,6 +27,7 @@ Model structure
 ```
 model.py
 ```
+Perform necessary data sampling
 
 Start training
 ```
